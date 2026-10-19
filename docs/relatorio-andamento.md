@@ -78,7 +78,8 @@ Uma correção de processo ocorreu no caminho: os notebooks 01 e 02 começaram s
 | 05 | EDA do Loghub | Concluído |
 | 06-01 a 06-06 | EDA do CoMoFoD (inventário, máscaras, PSNR, baseline, fotografias, veredito) | Concluídos |
 | 10 | EDA de um arquivo da CIC-IoT2023 | Concluído |
-| 04, 07, 08, 09 | EDA do MalMem, datasheets, roteiro da base grande | Ainda não escritos |
+| 07-01 | Datasheet do CoMoFoD | Concluído (`docs/datasheets/comofod.md`) |
+| 04, 07-02 a 07-04, 08, 09 | EDA do MalMem, datasheets das outras bases, roteiro da base grande | Ainda não escritos |
 
 ---
 
@@ -259,7 +260,7 @@ O tamanho declarado de uma base engana: 10.400 imagens viram 41 fotografias; 575
 
 | Base | Condições |
 |---|---|
-| **CoMoFoD** | *Release agreement*: só uso acadêmico e não comercial; proibido redistribuir, copiar ou disseminar a base, inclusive dentro da organização; as imagens baixadas não podem ser modificadas (criar imagens novas a partir delas é permitido); citar Tralić, Zupancic, Grgić e Grgić, ELMAR 2013. Por isso nenhuma imagem da base vai para o git, para documentos ou para apresentações, e a figura de exemplo do notebook fica desligada por padrão. |
+| **CoMoFoD** | *Release agreement*: só pesquisa acadêmica, sem uso comercial, sem redistribuir nem modificar as imagens baixadas, citando Tralić et al., ELMAR 2013. A base não tem garantia dos autores, e eles podem mudar os termos a qualquer momento. Nenhuma imagem da base vai para o git, para documentos ou para apresentações. Texto completo e regras práticas em [`datasheets/comofod.md`](datasheets/comofod.md#termos-de-uso). |
 | **Loghub** | CC-BY-4.0 (Zenodo, DOI 10.5281/zenodo.8196385): uso livre com atribuição. |
 | **CIC-IoT2023 e CIC-MalMem-2022** | Download só após formulário de cadastro em `cicresearch.ca`. Os termos de licença dessas duas ainda não foram lidos nem registrados no projeto. |
 | **CoMoFoD Large** | Só por contato com os autores; fora do estudo. |

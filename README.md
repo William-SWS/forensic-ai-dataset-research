@@ -35,7 +35,7 @@ Bases reserva, caso alguma das escolhidas não sirva: Dumpware10 (memória), DEF
 | CIC-IoT2023 | Um arquivo analisado (`DDoS-HTTP_Flood-.pcap.csv`, 28.790 linhas) | `notebooks/03_eda_cic_iot2023_ddos_http_flood.ipynb` |
 | CIC-MalMem-2022 | Bloqueada: só chegaram 850 linhas de uma família de spyware; falta o arquivo principal de 58.596 registros | ainda sem notebook |
 
-Ainda não foram feitos os datasheets, o roteiro da base grande nem o Spark local via Docker.
+Datasheets: só o do CoMoFoD está pronto (`docs/datasheets/comofod.md`). Ainda não foram feitos os outros três, o roteiro da base grande nem o Spark local via Docker.
 
 ## Principais resultados até agora
 
@@ -91,7 +91,7 @@ Tempos medidos: cerca de 1,5 min (Loghub), 2 min 33 s (CoMoFoD) e 5 s (CIC-IoT20
 ## Condições de uso das bases
 
 - **Loghub:** licença CC-BY-4.0. O uso é livre, desde que a fonte seja citada.
-- **CoMoFoD:** o [acordo de uso](https://www.vcl.fer.hr/comofod/release_agreemen.html) permite só pesquisa acadêmica ou científica, sem nenhum uso comercial. A base não pode ser redistribuída, publicada, copiada nem disseminada, nem mesmo para colegas da mesma instituição. As imagens baixadas não podem ser modificadas, mas imagens novas podem ser criadas a partir delas. Todo trabalho que usar a base deve citar Tralić et al., "CoMoFoD - New Database for Copy-Move Forgery Detection", ELMAR-2013, pp. 49-54. Por isso nenhuma imagem da base entra no repositório, e a figura de exemplo do notebook 02 fica desligada por padrão.
+- **CoMoFoD:** o [acordo de uso](https://www.vcl.fer.hr/comofod/release_agreemen.html) permite só pesquisa acadêmica, sem uso comercial. A base não pode ser redistribuída nem copiada, nem mesmo para colegas da mesma instituição, e as imagens baixadas não podem ser modificadas. Todo trabalho deve citar Tralić et al., "CoMoFoD - New Database for Copy-Move Forgery Detection", ELMAR-2013, pp. 49-54. Por isso nenhuma imagem da base entra no repositório. O texto completo e o que cada cláusula exige do projeto estão no [datasheet](docs/datasheets/comofod.md#termos-de-uso).
 - **CIC-IoT2023 e CIC-MalMem-2022:** o download exige cadastro. Os termos de licença ainda não foram lidos nem registrados.
 
 ## Ambiente de trabalho
@@ -111,6 +111,7 @@ Tempos medidos: cerca de 1,5 min (Loghub), 2 min 33 s (CoMoFoD) e 5 s (CIC-IoT20
 │   ├── decisions.md            log cronológico de decisões (só se acrescenta)
 │   ├── relatorio-andamento.md  explicação didática do que foi feito
 │   ├── cic-iot2023-arquivos-csv.md
+│   ├── datasheets/             um datasheet por base (origem, volume, rótulos, termos de uso, riscos)
 │   ├── issues/                 tickets de cada etapa
 │   └── presentations/          apresentação das bases (.pptx)
 ├── spreadsheet/                catálogo de 37 bases e sua verificação

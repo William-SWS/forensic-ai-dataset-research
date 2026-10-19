@@ -36,3 +36,7 @@ Log cronológico e append-only. Uma seção por data; novas decisões entram no 
 - Parquet como formato intermediário para a base grande (difícil de reverter, a conversão do CSV de 46,7 M de linhas é cara).
 - Spark local via Docker em vez de JDK no host (se a entrada 12b for confirmada).
 - Execução 100% local, nuvem apenas comparada em papel (entrada 5).
+
+## 2026-10-18
+
+27. **Datasheet do CoMoFoD (ticket 07-01) em `docs/datasheets/comofod.md`, que passa a ser o lugar oficial dos termos de uso da base.** Traz o *release agreement* transcrito na íntegra, com link e data de leitura, e uma tabela que traduz cada cláusula em regra do projeto. Registra três cláusulas que não constavam da entrada 16: a base vem **sem garantia** dos autores (as inconsistências medidas na entrada 25 são limitação a relatar), os donos podem **mudar os termos a qualquer momento** (reler a página antes de publicar resultados) e o uso é gratuito. `README.md` e `docs/relatorio-andamento.md` ficam com resumo curto e link. Conferido: as 45 imagens embutidas na apresentação `.pptx` são logotipos e ícones, nenhuma do CoMoFoD. Datasheets das outras bases: tickets 07-02 a 07-04, ainda não escritos.
